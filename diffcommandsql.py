@@ -83,7 +83,7 @@ for hu in comm:
 	print(hu)
 print("end of table delete")
 #limit
-comm.execute("select * from human where place='chennai' limit  1;")
+comm.execute("select * from human where place='chennai' limit  2;")
 
 for li in comm:
 	print(li)
@@ -94,4 +94,7 @@ comm.execute("select max(age) from human")
 
 for ag in comm:
 	print(ag)
+	
+	
+
 
